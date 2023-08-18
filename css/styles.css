@@ -34,26 +34,29 @@ a{
     text-decoration: underline;
     color: #404bbf;
 }
-
+.adress{
+    font-style: normal;
+}
 .link-adr{
     font-size: 16px;
     line-height: 1.5;
-    letter-spacing: 0.002em;
+    letter-spacing: 0.02em;
     color: #434455;
 }
 .link-adr:hover, .link-adr:focus {
     text-decoration: none;
     color: #404bbf;
 }
-
-h1{
-    font-weight: 700;
-    font-size: 56px;
-    letter-spacing: 2%;
-    line-height: 60px;
-    color: #ffffff;
-    background-color: #2e2f42;
+.banner{
+background-color: #2e2f42;
 }
+.first-title{
+    font-size: 56px;
+    line-height: 1.07;
+    text-align: center;
+    letter-spacing: 0.02em;
+}
+
 h2{
     font-weight: 700;
     font-size: 36px;
@@ -67,10 +70,13 @@ h3{
 
 .button{
     font-weight: 500;
-    letter-spacing: 4%;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.04em;
     cursor: pointer;
     background-color: #4D5AE5;
     color: #ffffff;
+    font-family: "Roboto", sans-serif;
 }
 .button:hover, .button:focus{
     background-color: #404bbf;
