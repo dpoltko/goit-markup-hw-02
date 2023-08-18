@@ -72,9 +72,6 @@ background-color: #2e2f42;
     background-color: #404bbf;
 }
 
-.team-section{
-    background-color: #f4f4fd;
-}
 .goals{
     background-color: #ffffff;
 }
@@ -91,12 +88,32 @@ line-height: 1.5;
 letter-spacing: 0.02em;
 color: #434455;
 }
+.team-section {
+    background-color: #f4f4fd;
+}
+.team-title{
+    font-size: 36px;
+    line-height: 1.11;
+    text-align: center;
+    letter-spacing: 0.02em;
+    text-transform: capitalize;
+    color:#2e2f42;
+}
+.crew-list {
+    background-color: #ffffff;
+}
+.team-title{
+    font-weight: 500;
+    font-size: 20px
+    color: #2e2f42;
+}
+.team-text{
+    font-size: 16px;
+}
 .portfolio{
     background-color: #e7e9fc;
 }
-.team-section li {
-    background-color: #ffffff;
-}
+
 .portfolio li {
     background-color: #ffffff;
 }
