@@ -1,8 +1,8 @@
 body{
     font-family: "Roboto", sans-serif;
     color: #434455;
-    line-height: 24px;
-    letter-spacing: 2%;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
     background-color: #ffffff;
 }
 ul {
@@ -55,17 +55,7 @@ background-color: #2e2f42;
     line-height: 1.07;
     text-align: center;
     letter-spacing: 0.02em;
-}
-
-h2{
-    font-weight: 700;
-    font-size: 36px;
-    letter-spacing: 2%;
-}
-h3{
-    font-weight: 500;
-    font-size: 20px;
-    letter-spacing: 2%;
+    color: #ffffff;
 }
 
 .button{
@@ -87,6 +77,19 @@ h3{
 }
 .goals{
     background-color: #ffffff;
+}
+.goals-title{
+    font-weight: 500;
+    font-size: 20px;
+    letter-spacing: 0.02em;
+    line-height: 1.2;
+    color: #2e2f42;
+}
+.goals-text{
+font-size: 16px;
+line-height: 1.5;
+letter-spacing: 0.02em;
+color: #434455;
 }
 .portfolio{
     background-color: #e7e9fc;
