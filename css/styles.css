@@ -24,32 +24,26 @@ a{
     color: #2e2f42;
 }
 .link-nav{
-    font-size: 12px;
+    font-size: 16px;
     font-weight: 500;
-    line-height: 16px;
-    letter-spacing: 4%;
-    color: #434455;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    color: #2e2f42;
 }
 .link-nav:hover, .link-nav:focus {
-    font-size: 12px;
-    line-height: 16px;
-    letter-spacing: 4%;
     text-decoration: underline;
-    color: #4D5AE5;
+    color: #404bbf;
 }
 
 .link-adr{
-    font-size: 12px;
-    line-height: 16px;
-    letter-spacing: 4%;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.002em;
     color: #434455;
 }
 .link-adr:hover, .link-adr:focus {
-    font-size: 12px;
-    line-height: 16px;
-    letter-spacing: 4%;
     text-decoration: none;
-    color: #4D5AE5;
+    color: #404bbf;
 }
 
 h1{
